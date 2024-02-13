@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">Instagram Clone</string>
+    <string name="sign_up">Sign Up.</string>
+    <string name="signup">sign up</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="log_in_with_facebook">Log in with Facebook</string>
+    <string name="or">OR</string>
+    <string name="get_help_logging_in">Get help logging in.</string>
+    <string name="forget_your_login_details">Forget Your Login Details?</string>
+    <string name="log_in">Log In</string>
+    <string name="password">password</string>
+    <string name="phone_number_email_or_username">phone number,email or username</string>
+    <string name="english_india">English (India)</string>
+    <string name="choose_username">Choose username</string>
+    <string name="you_can_always_change_it_later">You can always change it later.</string>
+    <string name="username">Username</string>
+    <string name="next">Next</string>
+    <string name="welcome_to_home_page">Welcome to home page</string>
+    <string name="for_security_your_password_must_be_6_characters_or_more">For Security, your password must be 6 characters or more</string>
+    <string name="create_a_password">Create a Password</string>
+    <string name="signup_password">Password</string>
+    <string name="remember_password">Remember password</string>
 </resources>

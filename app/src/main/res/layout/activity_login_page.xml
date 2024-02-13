@@ -13,12 +13,12 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="English (India)"
+        android:text="@string/english_india"
         android:textColor="#7A7A7A"
-        android:drawableRight="@drawable/baseline_arrow_drop_down_24"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:drawableRightCompat="@drawable/baseline_arrow_drop_down_24" />
 
 
     <LinearLayout
@@ -47,8 +47,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             android:background="@drawable/edittest_bg"
-            android:hint="phone number,email or username"
-            android:padding="12dp" />
+            android:hint="@string/phone_number_email_or_username"
+            android:padding="12dp"
+            android:id="@+id/usernameEditText"
+            />
 
         <EditText
             android:layout_width="match_parent"
@@ -56,10 +58,10 @@
             android:layout_marginTop="16dp"
             android:background="@drawable/edittest_bg"
             android:drawableEnd="@drawable/eye_icon"
-            android:hint="password"
+            android:hint="@string/password"
             android:inputType="textPassword"
             android:padding="12dp"
-
+            android:id="@+id/passwordEditText"
             />
 
         <Button
@@ -68,7 +70,8 @@
             android:layout_marginTop="16dp"
             android:backgroundTint="@color/blue"
             android:padding="16dp"
-            android:text="Log In" />
+            android:text="@string/log_in"
+            android:id="@+id/loginBtn"/>
 
         <LinearLayout
             android:layout_width="wrap_content"
@@ -80,12 +83,12 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Forget Your Login Details?" />
+                android:text="@string/forget_your_login_details" />
 
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Get help logging in."
+                android:text="@string/get_help_logging_in"
                 android:textColor="#333333"
                 android:textStyle="bold" />
         </LinearLayout>
@@ -108,7 +111,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
                 android:layout_marginEnd="4dp"
-                android:text="OR" />
+                android:text="@string/or" />
 
             <View
                 android:layout_width="match_parent"
@@ -133,7 +136,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="4dp"
-                android:text="Log in with Facebook"
+                android:text="@string/log_in_with_facebook"
                 android:textColor="@color/blue"
                 android:textStyle="bold" />
 
@@ -157,12 +160,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Don't  have an account?" />
+            android:text="@string/don_t_have_an_account" />
 
         <TextView
+            android:id="@+id/ClickableSignup"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign Up."
+            android:text="@string/signup"
             android:textColor="#333333"
             android:textStyle="bold" />
     </LinearLayout>
