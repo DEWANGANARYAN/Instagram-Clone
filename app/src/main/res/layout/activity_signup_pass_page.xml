@@ -46,7 +46,8 @@
             android:hint="@string/signup_password"
             android:padding="12dp"
             android:inputType="text"
-            android:importantForAutofill="no" />
+            android:importantForAutofill="no"
+            android:id="@+id/pass"/>
 
         <CheckBox
             android:layout_width="wrap_content"
